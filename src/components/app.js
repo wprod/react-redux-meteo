@@ -7,6 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="jumbotron">
+        <h1>Reac/Redux/Openweathermap</h1>
         <SearchBar/>
         <WeatherList/>
       </div>
